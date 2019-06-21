@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggleButton1" />
+
+
+
+
+        
+
+
+          
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1" 
+            android:rowCount="1"
+            android:columnCount="2">
+
+
+            <LinearLayout
+                
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/linearLayout4" 
+            >
+            
+            
+            <ImageButton
+                android:src="@mipmap/ic_f"
+                android:layout_width="80.0dp"
+                android:layout_height="76.3dp"
+                android:id="@+id/imageButton1"
+                android:layout_marginRight="0.0dp"
+                android:layout_marginBottom="0.0dp"/>
+
+
+
+                <ImageButton
+                android:src="@mipmap/ic_b"
+                android:layout_width="80.0dp"
+                android:layout_height="76.3dp"
+                android:id="@+id/imageButton1"
+                android:layout_marginRight="0.0dp"
+                android:layout_marginBottom="0.0dp"/>
+            
+            
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout5">
+
+
+
+                <ImageButton
+                    android:src="@mipmap/ic_l"
+                    android:layout_width="80.0dp"
+                    android:layout_height="76.3dp"
+                    android:id="@+id/imageButton1"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginBottom="0.0dp"/>
+
+
+                <ImageButton
+                    android:src="@mipmap/ic_r2"
+                    android:layout_width="80.0dp"
+                    android:layout_height="76.3dp"
+                    android:id="@+id/imageButton1"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginBottom="0.0dp"/>
+
+            </LinearLayout>
+        
+        
+        
+        
+
+
+
+
+
+
+        
+        </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    
+
+
+    
+      
+
+
+
+
+
+
+</RelativeLayout>
